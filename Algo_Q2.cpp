@@ -68,7 +68,7 @@ int main()
             outfile << "a[" <<find(a.begin(), a.end(), result.elements[i])-a.begin()+1 << "] = " << result.elements[i] << endl;
         }
 
-        outfile <<"Sum = "<<result.sum << endl;
+        outfile <<"Sum = "<< result.sum << endl;
 
         infile.close();
         outfile.close();   

@@ -11,7 +11,7 @@ std::vector<std::pair<int,int>> findLIS(const std::vector<int>& A)
     int n=A.size(); 
     std::vector<int> dp(n,1); //stocke la valeur de la sous séquence croissante la plus longue
     std::vector<int> prev(n,-1); //stocke l'indice de l'elt précédent de la sous séquence
-    int max_len=1,max_idx=0; //max_len stocke la long de la ssc trouvée et max_idx stocke l'ind de la fin de la ss
+    int max_len=1,max_idx=0; //max_len stocke la long de la sous séquence croissante trouvée et max_idx stocke l'ind de la fin de la sous séquence 
 
     for(int i=1;i<n;i++)
     {
